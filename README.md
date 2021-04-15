@@ -1,4 +1,4 @@
-##Information:
+## Information:
 
 This API will provide you with commonly used English nouns. Usage is described below.
 
@@ -18,10 +18,10 @@ e.g. `https://arcane-brushlands-62039.herokuapp.com/api/random?number=23`
 
 Note: `number` can only be a positive number here.
 
-###Sample code:
+### Sample code:
 `curl https://arcane-brushlands-62039.herokuapp.com/api/random?number=10`
 
-####Response:
+#### Response:
 
 ```json
 {
@@ -42,7 +42,7 @@ Note: `number` can only be a positive number here.
 
 ### When `number` has an invalid value:
 
-###Sample code:
+### Sample code:
 
 `$ curl https://arcane-brushlands-62039.herokuapp.com/api/random?number=abcd`
 
@@ -50,7 +50,7 @@ or
 
 `$ curl https://arcane-brushlands-62039.herokuapp.com/api/random?number=-1`
 
-####Response:
+#### Response:
 
 ```json
 {
