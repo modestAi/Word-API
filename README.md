@@ -4,24 +4,24 @@ This API will provide you with commonly used English nouns. Usage is described b
 
 ## Usage
 
-### The basic syntax of a URL request to the API for all available words is shown below:
+#### The basic syntax of a URL request to the API for all available words is shown below:
 
 `https://arcane-brushlands-62039.herokuapp.com/api/all`
 
-### The basic syntax for getting one random word from the API is shown below:
+#### The basic syntax for getting one random word from the API is shown below:
 
 `https://arcane-brushlands-62039.herokuapp.com/api/random`
 
-### Syntax for getting desired number of random words from the API is shown below:
+#### Syntax for getting desired number of random words from the API is shown below:
 
 e.g. `https://arcane-brushlands-62039.herokuapp.com/api/random?number=23`
 
 Note: `number` can only be a positive number here.
 
-### Sample code:
+#### Sample code:
 `curl https://arcane-brushlands-62039.herokuapp.com/api/random?number=10`
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -40,9 +40,9 @@ Note: `number` can only be a positive number here.
 }
 ```
 
-### When `number` has an invalid value:
+#### When `number` has an invalid value:
 
-### Sample code:
+#### Sample code:
 
 `$ curl https://arcane-brushlands-62039.herokuapp.com/api/random?number=abcd`
 
@@ -50,7 +50,7 @@ or
 
 `$ curl https://arcane-brushlands-62039.herokuapp.com/api/random?number=-1`
 
-#### Response:
+##### Response:
 
 ```json
 {
